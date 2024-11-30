@@ -1,0 +1,246 @@
+/* ------- Start Media Quary ----- */
+@media (max-width: 895px) {
+  .section-p1 {
+    padding: 40px 40px;
+  }
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    background-color: #e3e6f3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
+    width: 300px;
+    padding: 80px 0 0 10px;
+    transition: 0.5s;
+    z-index: 9999;
+  }
+  #navbar.active {
+    right: 0px;
+  }
+  #navbar li {
+    margin-bottom: 25px;
+  }
+  #mobile {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  #mobile .cart-small-screen {
+    padding-right: 10px;
+    font-size: 20px;
+  }
+  #mobile .cart-small-screen .notifiction {
+    top: -12px;
+    right: 44px;
+  }
+  #mobile .cart-user {
+    cursor: pointer;
+    color: #1a1a1a;
+  }
+  /* .logout {
+    display: none;
+  } */
+  .bi-text-right {
+    padding: 0px 10px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  #close {
+    display: initial;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #222;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  #lg-bag {
+    display: none;
+  }
+  #hero {
+    height: 70vh;
+    background-position: top 30% right 30%;
+  }
+  #hero h2,
+  #hero h1 {
+    font-size: 35px;
+  }
+  #product1 .pro-container,
+  .pro-container-arrivals {
+    justify-content: center;
+  }
+  #product1 .pro {
+    margin: 15px;
+  }
+  #banner {
+    height: 32vh;
+  }
+  #sm-banner .banner-box {
+    min-width: 100%;
+    height: 45vh;
+  }
+ .banner-box h3{
+   font-size: 15px;
+  }
+  #sm-banner,
+  #lg-banner {
+    padding: 10px 40px;
+  }
+  #lg-banner .banner-box {
+    width: 28%;
+  }
+  .form {
+    width: 70%;
+  }
+  /* ////// Single page  //////////// */
+  #prodetails {
+    flex-wrap: wrap;
+  }
+  #prodetails .single-pro-image {
+    width: 100%;
+    margin-right: 0px;
+  }
+  #prodetails .single-pro-details {
+    width: 100%;
+  }
+  /* ///// Blog page /////////// */
+  #blog {
+    padding: 90px 20px 0 20px;
+  }
+  #blog .blog-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #blog .blog-box .blog-img {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  #blog .blog-box .blog-details {
+    width: 100%;
+  }
+  /* ///// About page /////////// */
+  #about .about-box {
+    flex-direction: column;
+  }
+  #about img {
+    width: 100%;
+    margin-right: 0px;
+  }
+  #about .about-details {
+    margin-top: 25px;
+  }
+  #about-app .video {
+    width: 100%;
+  }
+  /* ///// Contact page/////////// */
+  .contact-box {
+    flex-direction: column;
+  }
+  .contact-box .contact-details {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .map {
+    width: 100%;
+  }
+  iframe {
+    width: 100%;
+  }
+  #form-details {
+    padding: 20px;
+  }
+  #form-details form {
+    width: 50%;
+  }
+  /* ----------- Start Sign In ------------- */
+  #section-form {
+    width: 70%;
+  }
+  #clear{
+    padding-left: 50px;
+   }
+}
+
+@media (max-width: 477px) {
+  button.normal {
+    padding: 10px 20px;
+  }
+  button.white {
+    padding: 5px 10px;
+  }
+  .section-p1 {
+    padding: 20px;
+  }
+  #header {
+    padding: 10px 30px;
+  }
+  #hero {
+    padding: 0 20px;
+    background-position: 55%;
+  }
+  #hero h1 {
+    font-size: 32px;
+  }
+  #hero h2 {
+    font-size: 30px;
+  }
+  #hero p {
+    font-size: 13px;
+  }
+  #product1 .pro {
+    width: 100%;
+  }
+  #banner {
+    height: 40vh;
+  }
+  #banner h2 {
+    font-size: 23px;
+    padding: 5px 0;
+  }
+  #sm-banner .banner-box {
+    height: 40vh;
+  }
+  .banner-box2 {
+    margin-top: 10px;
+  }
+  #lg-banner {
+    padding: 0 20px;
+  }
+  .banner-box h3{
+    font-size: 10px;
+   }
+  #lg-banner .banner-box {
+    width: 100%;
+  }
+  .form {
+    width: 100%;
+  }
+  #last-banner {
+    padding: 20px;
+  }
+  /* contact page */
+  #form-details {
+    flex-direction: column;
+    margin: 10px;
+    padding: 30px 10px;
+  }
+  #form-details form {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .people div {
+    width: 100%;
+  }
+  /* ----------- Start Sign In ------------- */
+  #section-form {
+    width: 90%;
+  }
+  #clear .btn{
+    padding: 10px 10px;
+  }
+}
